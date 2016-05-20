@@ -93,11 +93,6 @@ def kmeans(D, k):
 			centers[i,:] = np.mean(D[np.nonzero(groups == i)[0],:],axis=0)
 	return groups, centers
 
-# def find_eig_vec(M, eig_val):	
-# 	v = 
-# 	for i in range(10):
-# 		w = M
-
 
 ## 1. Read Data
 data = read_data('dataset.txt')
