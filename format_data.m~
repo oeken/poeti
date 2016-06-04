@@ -1,0 +1,10 @@
+clc;
+clear;
+close all;
+
+filename = 'dataset1.txt';
+A = importdata(filename);
+A = reshape(A,[24,5]);
+A = A';
+
+% cell2csv('nba.csv', whole)
